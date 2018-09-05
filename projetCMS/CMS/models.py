@@ -10,4 +10,4 @@ class Post(models.Model):
     post_title = models.CharField(max_length=50)
     post_content = models.CharField(max_length=5000)
     def __str__(self):
-        return f'Post {self.title}'
+        return f'Post {self.post_title}'
