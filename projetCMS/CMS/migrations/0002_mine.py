@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('demineur', '0001_initial'),
+        ('CMS', '0001_initial'),
     ]
 
     operations = [
@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('position_x', models.PositiveSmallIntegerField()),
                 ('position_y', models.PositiveSmallIntegerField()),
-                ('partie', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='mines', to='demineur.Partie')),
+                ('partie', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='mines', to='CMS.Partie')),
             ],
         ),
     ]
