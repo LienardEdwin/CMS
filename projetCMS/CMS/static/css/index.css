@@ -21,3 +21,25 @@
     text-decoration: underline;
     cursor: pointer;
 }
+.form-container > form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 420px;
+    padding: 20px 80px;
+}
+.form-container > form > p {
+    display: flex;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+.form-container > form > p textarea{
+    width: 500px;
+}
+#comments{
+    margin-top: 40px;
+}
+
+.form-container > form > .submit{
+    margin-top: 40px;
+}
