@@ -39,6 +39,8 @@
             <h1> « {{ post }} »</h1>
             <p>{{ post.post_content }}</p>
             <p>{{ post.post_comment }}</p>
+              <h2>Commentaires</h2>
+    <p>{{ post.text }}</p>
         </div>
     </div>
     </div>
@@ -52,14 +54,6 @@
                 [...] composant ou figurant dans le site doit se faire sans dénaturation, modification ou altération de quelque manière que ce soit.</p>
 
     </div>
-=======
-{% for post in posts %}
-    <h1> « {{ post }} »</h1>
-    <p>{{ post.post_content }}</p>
-    <h2>Commentaires</h2>
-    <p>{{ post.text }}</p>
-{% endfor %}
->>>>>>> threadedcomment
 </body>
 
 </html>
