@@ -9,12 +9,10 @@ class Post(models.Model):
     post_date = models.DateTimeField(auto_now_add=True)
     post_title = models.CharField(max_length=50)
     post_content = models.CharField(max_length=5000)
+    text = models.TextField(blank=True)
+
     def __str__(self):
         return f' {self.post_title}'
 
-"""lass Comment(models.Model):
-    name_comment = models.CharField(max_length=5000)
-    comment = models.CharField(max_length=5000)
 
-    def __str__(self):
-        return f' {self.comment}'"""
+

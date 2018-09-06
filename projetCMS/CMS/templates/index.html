@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +52,14 @@
                 [...] composant ou figurant dans le site doit se faire sans dénaturation, modification ou altération de quelque manière que ce soit.</p>
 
     </div>
+=======
+{% for post in posts %}
+    <h1> « {{ post }} »</h1>
+    <p>{{ post.post_content }}</p>
+    <h2>Commentaires</h2>
+    <p>{{ post.text }}</p>
+{% endfor %}
+>>>>>>> threadedcomment
 </body>
 
 </html>
