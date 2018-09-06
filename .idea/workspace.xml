@@ -4,7 +4,6 @@
     <list default="true" id="68ee3062-ad78-458f-9072-eb240c0c9a2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projetCMS/CMS/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetCMS/CMS/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetCMS/CMS/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetCMS/CMS/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projetCMS/CMS/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetCMS/CMS/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projetCMS/CMS/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetCMS/CMS/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projetCMS/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projetCMS/db.sqlite3" afterDir="false" />
@@ -69,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projetCMS/CMS/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -105,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projetCMS/CMS/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -118,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/projetCMS/projetCMS/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#643#675#0" expanded="true" />
               </folding>
@@ -389,17 +388,24 @@
     <entry file="file://$PROJECT_DIR$/projetCMS/projetCMS/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#643#675#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/models.py">
+    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -416,20 +422,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/admin.py">
+    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
