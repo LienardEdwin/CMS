@@ -8,8 +8,8 @@
 {% for post in posts %}
     <h1> « {{ post }} »</h1>
     <p>{{ post.post_content }}</p>
-    <p>{% render_comment_list for object %}</p>
-    <p>{% render_comment_form for object %}</p>
+    <h2>Commentaires</h2>
+    <p>{{ post.text }}</p>
 {% endfor %}
 </body>
 </html>

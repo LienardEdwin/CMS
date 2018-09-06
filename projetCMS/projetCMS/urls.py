@@ -14,8 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
-from django.conf.urls import url
+from django.urls import path
 
 
 from CMS.views import view_posts
@@ -23,7 +22,6 @@ from CMS.views import view_posts
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', view_posts),
-    url(r'^articles/comments/', include('django_comments.urls'))
 
 ]
 
