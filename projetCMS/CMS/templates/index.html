@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <title>Blog</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
+    <title>CMS | Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="icon" href="https://www.favicon.cc/logo3d/129461.png" />
 </head>
-
 <body>
-<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">CMS</a>
-
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
@@ -30,28 +26,24 @@
         </div>
     </nav>
     {% for post in posts %}
-
     <div>
         <img class="card-img-top" src={{post.picture_url}} alt="Card image cap">
         <div class="card-body" style="background-color: beige">
             <h1> « {{ post }} »</h1>
             <p>{{ post.post_content }}</p>
             <p>{{ post.post_comment }}</p>
-              <h2>Commentaires</h2>
-    <p>{{ post.text }}</p>
+            <h2>Commentaires</h2>
+            <p>{{ post.text }}</p>
         </div>
     </div>
     </div>
     {% endfor %}
     <div class="container-fluid bg-light" style="text-align: center">
         <h4>CMS.net © 2019 Copyright - All rights reserved </h4>
-
         <p>La mention suivante doit notamment apparaître sur toute copie autorisée
-                [...] de tout ou partie du
-                contenu du Site: "CMS.net © 2019 Copyright - All rights reserved" accompagnée d'un lien pointant vers le site www.CMS.net Toute utilisation autorisée des éléments
-                [...] composant ou figurant dans le site doit se faire sans dénaturation, modification ou altération de quelque manière que ce soit.</p>
-
+            [...] de tout ou partie du
+            contenu du Site: "CMS.net © 2019 Copyright - All rights reserved" accompagnée d'un lien pointant vers le site www.CMS.net Toute utilisation autorisée des éléments
+            [...] composant ou figurant dans le site doit se faire sans dénaturation, modification ou altération de quelque manière que ce soit.</p>
     </div>
 </body>
-
 </html>
