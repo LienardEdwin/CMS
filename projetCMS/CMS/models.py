@@ -11,3 +11,10 @@ class Post(models.Model):
     post_content = models.CharField(max_length=5000)
     def __str__(self):
         return f' {self.post_title}'
+
+class Comment(models.Model):
+    name_comment = models.CharField(max_length=5000)
+    comment = models.CharField(max_length=5000)
+
+    def __str__(self):
+        return f' {self.comment}'

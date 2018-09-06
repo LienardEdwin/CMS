@@ -8,6 +8,6 @@ from .models import Post
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    list_display = ['__str__', 'post_title', 'post_date', 'post_content']
-    list_editable = ['post_title', 'post_content']
+    list_display = ['__str__', 'post_title', 'post_date', 'post_content','post_comment']
+    list_editable = ['post_title', 'post_content','post_comment']
     date_hierarchy = 'post_date'
