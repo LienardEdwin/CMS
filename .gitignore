@@ -5,4 +5,8 @@ projetCMS/CMS/__pycache__/
 
 projetCMS/\.idea/
 
+<<<<<<< HEAD
 venv
+=======
+projetCMS/CMS/migrations/__pycache__/
+>>>>>>> 330d473dee9d79a29528bfa82f19c37aa23f24bf
