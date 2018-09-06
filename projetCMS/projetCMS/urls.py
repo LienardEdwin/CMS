@@ -21,4 +21,5 @@ from CMS.views import view_posts
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', view_posts),
+    path('^markdown/', 'django_markdown.urls'),
 ]
