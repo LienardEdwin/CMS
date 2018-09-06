@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ee3062-ad78-458f-9072-eb240c0c9a2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/projetCMS/CMS/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetCMS/CMS/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetCMS/projetCMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetCMS/projetCMS/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +36,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -100,10 +100,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projetCMS/projetCMS/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projetCMS/CMS/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state>
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -139,12 +148,12 @@
         <option value="$PROJECT_DIR$/projetCMS/CMS/migrations/view.py" />
         <option value="$PROJECT_DIR$/projetCMS/CMS/migrations/views.py" />
         <option value="$PROJECT_DIR$/projetCMS/CMS/migrations/urls.py" />
-        <option value="$PROJECT_DIR$/projetCMS/projetCMS/settings.py" />
         <option value="$PROJECT_DIR$/projetCMS/CMS/views.py" />
         <option value="$PROJECT_DIR$/projetCMS/CMS/admin.py" />
         <option value="$PROJECT_DIR$/projetCMS/projetCMS/urls.py" />
         <option value="$PROJECT_DIR$/projetCMS/CMS/models.py" />
         <option value="$PROJECT_DIR$/projetCMS/CMS/templates/index.html" />
+        <option value="$PROJECT_DIR$/projetCMS/projetCMS/settings.py" />
       </list>
     </option>
   </component>
@@ -201,20 +210,6 @@
               <item name="CMS-Django" type="462c0819:PsiDirectoryNode" />
               <item name="projetCMS" type="462c0819:PsiDirectoryNode" />
               <item name="CMS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMS-Django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMS-Django" type="462c0819:PsiDirectoryNode" />
-              <item name="projetCMS" type="462c0819:PsiDirectoryNode" />
-              <item name="CMS" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMS-Django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMS-Django" type="462c0819:PsiDirectoryNode" />
-              <item name="projetCMS" type="462c0819:PsiDirectoryNode" />
-              <item name="CMS" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CMS-Django" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +274,7 @@
     <frame x="-11" y="23" width="1275" height="719" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18329278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18329278" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,7 +287,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3094099" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3094099" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -355,29 +350,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projetCMS/projetCMS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projetCMS/projetCMS/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#643#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -392,6 +370,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projetCMS/CMS/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -402,10 +387,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/projetCMS/CMS/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetCMS/projetCMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
