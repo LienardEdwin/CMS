@@ -1,4 +1,4 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from .models import Post
 
 def view_posts(request):
@@ -6,7 +6,7 @@ def view_posts(request):
     posts = Post.objects.all()
 
 
-    return render_to_response('index.html', {
+    return render(request, 'index.html', {
         'posts': posts,
 
 

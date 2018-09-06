@@ -1,3 +1,4 @@
+{% load threadedcomments_tags %}
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -9,7 +10,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,11 +36,12 @@
         <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCZ4VpKcIgXaqBC0hSL48Qc5022Z60rUxmeHItTRs6s6WW5_A2kw"
             alt="Card image cap">
         <div class="card-body" style="background-color: beige">
-            <h1> « {{ post }} »</h1>
-            <p>{{ post.post_content }}</p>
-            <p>{{ post.post_comment }}</p>
-              <h2>Commentaires</h2>
-    <p>{{ post.text }}</p>
+            <h1>{{ post }}</h1>
+
+            {% render_comment_list for post %}
+            {% render_comment_form for post %}
+            <h2>Commentaires</h2>
+            <p>{{ post.text }}</p>
         </div>
     </div>
     </div>
