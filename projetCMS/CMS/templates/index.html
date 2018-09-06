@@ -9,6 +9,13 @@
     <link rel="icon" href="https://www.favicon.cc/logo3d/129461.png" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}" >
 </head>
+<script>
+    function displayForm(){
+        console.log('lala');
+        var form = document.querySelector(".form-container");
+        form.classList.toggle("visible");
+    }
+</script>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
@@ -34,11 +41,12 @@
         <div class="card-body" style="background-color: beige">
             <h1>{{ post }}</h1>
             <p>{{ post.post_content }}</p>
-            <h2>Commentaires</h2>
-            {% render_comment_list for post %}
-            {% render_comment_form for post %}
+            <h6 class="display-form" onclick="displayForm()">Voir les commentaires</h6>
+            <div class="form-container">
+                {% render_comment_list for post %}
+                {% render_comment_form for post %}
+            </div>
         </div>
-    </div>
     </div>
     {% endfor %}
     <div class="container-fluid bg-dark" id="droits">

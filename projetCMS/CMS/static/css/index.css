@@ -14,3 +14,13 @@
 {
     margin-bottom: 0 !important;
 }
+.form-container{
+    display: none;
+}
+.visible{
+    display: initial;
+}
+.display-form {
+    text-decoration: underline;
+    cursor: pointer;
+}
