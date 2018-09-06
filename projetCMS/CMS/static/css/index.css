@@ -1,7 +1,16 @@
-
-
 #droits{
     text-align: center;
     font-size:12px;
     color:aliceblue;
+}
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+.container-fluid{
+    padding: 10px 20px !important;
+}
+.container-fluid p
+{
+    margin-bottom: 0 !important;
 }
