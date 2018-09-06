@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 {% load threadedcomments_tags %}
-=======
-
->>>>>>> 330d473dee9d79a29528bfa82f19c37aa23f24bf
 <!DOCTYPE html>
 {% load static %}
 <html lang="fr">
@@ -36,18 +32,11 @@
     <div>
         <img class="card-img-top" src={{post.picture_url}} alt="Card image cap">
         <div class="card-body" style="background-color: beige">
-<<<<<<< HEAD
             <h1>{{ post }}</h1>
-
+            <p>{{ post.post_content }}</p>
+            <h2>Commentaires</h2>
             {% render_comment_list for post %}
             {% render_comment_form for post %}
-=======
-            <h1> « {{ post }} »</h1>
-            <p>{{ post.post_content }}</p>
-            <p>{{ post.post_comment }}</p>
->>>>>>> 330d473dee9d79a29528bfa82f19c37aa23f24bf
-            <h2>Commentaires</h2>
-            <p>{{ post.text }}</p>
         </div>
     </div>
     </div>
